@@ -1,23 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-   int n;
-   cin >> n;
-
-   if (n<2)
-   {
-      cout << "errore";
-      return 0;
-   };
-   int a = 1, b = 0, c = 0;
-   for (int i=1; i<=n; i++)
-   {
+int main() {
+   int n=0, a=1, b=1, c=0;
+   for (int i=0; i<=n; i++)
       c = a + b;
       a = b;
       b = c;
 
       cout << c << endl;
-   }
+return 0;
 }
